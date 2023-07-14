@@ -37,7 +37,8 @@
 }
 
 .more-info {
-  margin-bottom: 5000px;
+  display: inline-block;
+  margin-bottom: 10px;
 }
 
 .more-info:link,
