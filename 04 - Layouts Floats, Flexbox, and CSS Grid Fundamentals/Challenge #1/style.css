@@ -3,6 +3,7 @@
   line-height: 1.4;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .product {
@@ -23,23 +24,27 @@
 .price {
   font-size: 24px;
   font-weight: bold;
+  float: left;
 }
 
 .shipping {
   font-size: 12px;
   text-transform: uppercase;
   font-weight: bold;
-  color: #777777;
+  color: #777;
   margin-bottom: 20px;
+  margin-top: 10px;
+  float: right;
 }
 
 .product-description {
   margin-bottom: 10px;
+  clear: both;
 }
 
 .more-info:link,
 .more-info:visited {
-  color: black;
+  color: #000;
   display: inline-block;
   margin-bottom: 30px;
 }
@@ -66,18 +71,19 @@
 
 /* BUTTON */
 .add-cart {
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   font-size: 20px;
   text-transform: uppercase;
   cursor: pointer;
   padding: 15px;
   width: 100%;
-  border-top: 4px solid black;
+  border-top: 4px solid #000;
+  clear: both;
 }
 
 .add-cart:hover {
-  background-color: white;
+  background-color: #fff;
   color: black;
 }
 
@@ -127,4 +133,23 @@
 .child-6 {
   background-color: #7c4811;
   margin-right: 0;
+}
+
+.left-child {
+  float: left;
+  width: 250px;
+}
+
+.middle-child {
+  float: left;
+  padding-left: 40px;
+  margin-top: 20px;
+  width: 280px;
+}
+
+.right-child {
+  float: left;
+  margin-top: 20px;
+  padding-left: 40px;
+  width: 260px;
 }
