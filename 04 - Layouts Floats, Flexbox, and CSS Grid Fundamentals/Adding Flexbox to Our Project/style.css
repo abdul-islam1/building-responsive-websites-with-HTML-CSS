@@ -160,7 +160,7 @@ nav a:link {
   margin: 20px;
   display: block; */
   margin-right: 30px;
-  margin-top: 10px;
+
   display: inline-block;
 }
 
@@ -197,7 +197,7 @@ h2::after {
 
 /* FLOATS*/
 
-.author-img {
+/* .author-img {
   float: left;
   margin-bottom: 20px;
 }
@@ -238,4 +238,34 @@ aside {
 
 footer {
   clear: both;
+} */
+
+/* FLEXBOX */
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
 }
