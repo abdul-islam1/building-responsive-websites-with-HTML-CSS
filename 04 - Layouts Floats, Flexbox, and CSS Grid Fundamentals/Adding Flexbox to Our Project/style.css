@@ -263,6 +263,12 @@ footer {
   align-items: center;
 }
 
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+}
+
 .related-author {
   margin-bottom: 0;
   font-size: 14px;
