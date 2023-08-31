@@ -173,23 +173,43 @@ body {
   /* width: 243px; */
 }
 
-.container {
+/* .container {
   display: flex;
   gap: 40px;
   align-items: center;
-}
+} */
 
-.product-info {
+/* .product-info {
   flex: 1;
-}
+} */
 
-.product-details {
+/* .product-details {
   flex: 1;
-}
+} */
 
 .product-price {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 20px;
+}
+
+/* Using CSS GRID */
+
+.product {
+  display: grid;
+  grid-template-columns: 250px 1fr 1fr;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.product-title {
+  grid-column: 1/-1;
+}
+
+.product-details {
+}
+
+.add-cart {
+  grid-column: 1/-1;
 }
